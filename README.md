@@ -21,4 +21,4 @@ This project was intentionally designed to:
 
 The final result is a lightweight, production-ready inference API that can classify text in real time while maintaining minimal AWS costs.
 
-Data source: https://www.kaggle.com/datasets/yasserh/imdb-movie-ratings-sentiment-analysis
+For full csv file: https://www.kaggle.com/datasets/yasserh/imdb-movie-ratings-sentiment-analysis
