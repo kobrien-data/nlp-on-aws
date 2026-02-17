@@ -26,10 +26,10 @@ def load_model(force_reload=False):
         print("Model loaded successfully:", type(model))
     return model
 
+model = load_model(force_reload=True)
+
 def lambda_handler(event, context):
     try:
-        # Force reload so we are guaranteed to use the new model
-        model = load_model(force_reload=True)
 
         body = json.loads(event.get("body", "{}"))
         review = body.get("review")
